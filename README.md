@@ -172,9 +172,8 @@ The frontend is a **Next.js** app (React); the backend is **FastAPI**. The front
 
 ## Live Vercel URL
 
-**Live app:** https://your-app-name.vercel.app  
+**Live app:** https://mind-mail-ai.vercel.app  
 
-*(Replace `your-app-name` with your actual Vercel project name or custom domain.)*
 
 Ensure `NEXT_PUBLIC_BACKEND_URL` and `FRONTEND_URL` (in backend) are set to your production backend and this Vercel URL respectively, and that your Google OAuth client has the production callback in **Authorized redirect URIs**.
 
